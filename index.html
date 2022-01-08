@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spacestagram</title>
+</head>
+<body>
+    <img src="images/spacestagram.jpg" style="width: 100%; height: 200px;">
+    
+    <div class="pageContent">
+        <template id="myTemplate">
+            <div class="container">
+                <div class="img-Container">
+                    <img id="podImg">
+                </div>
+                <div class="info-Container">
+                    <h2 id="podTitle"></h2>
+                    <h3 id="podDate"></h3>
+                    <p id="podExplanation"></p>
+                    <button id="likeBtn">Like</button>
+                    <div class="tooltip">
+                        <button id="copyBtn"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span>copy</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </template>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
